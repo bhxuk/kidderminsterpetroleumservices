@@ -6,6 +6,7 @@
 - Added a GitHub Action that copies the images from the current site.
 - Sections now show straight away on load, with a light slide-in as you scroll.
 - Better spacing on phones with notches.
+- README now links to the live preview.
 
 ## v0.1.0 (2026-10-20)
 

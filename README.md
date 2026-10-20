@@ -1,5 +1,10 @@
 # Kidderminster Petroleum Services: website rebuild (mockup)
 
+### 🔗 [View the new website](https://bhxuk.github.io/kidderminsterpetroleumservices/)
+
+[![View the new website](https://img.shields.io/badge/View%20the%20new%20website-f5a300?style=for-the-badge)](https://bhxuk.github.io/kidderminsterpetroleumservices/)
+
+
 A redesign of [kidderminsterpetroleumservices.com](https://www.kidderminsterpetroleumservices.com/) using the same text, photos and contact details as the current WordPress site, rebuilt as a fast static site.
 
 ## Pages
@@ -26,4 +31,6 @@ All 34 photos and logos are self-hosted in `assets/img/`. They were copied from 
 
 ## Preview
 
-Enable GitHub Pages (Settings > Pages > Deploy from branch > `main` / root) to get a shareable preview link.
+Live preview (GitHub Pages): https://bhxuk.github.io/kidderminsterpetroleumservices/
+
+Pages is served from the `main` branch, root folder (Settings > Pages).
