@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.1 (2026-10-20)
+
+- Photos and logos now self-hosted in `assets/img/` instead of loading from the old site.
+- Added a GitHub Action that copies the images from the current site.
+- Sections now show straight away on load, with a light slide-in as you scroll.
+- Better spacing on phones with notches.
+
 ## v0.1.0 (2026-10-20)
 
 - First mockup of the rebuilt site: Home, About Us, Our Services, Projects and Contact pages.

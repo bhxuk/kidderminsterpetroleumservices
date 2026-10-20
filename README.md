@@ -16,10 +16,7 @@ Shared header, footer and accreditation strip are injected by `assets/js/site.js
 
 ## Images
 
-For the mockup, photos load straight from the current live site. To self-host them before the old site goes away:
-
-1. Run `scripts/get-images.ps1` from the repo root (Windows PowerShell). It saves all 34 images into `assets/img/`.
-2. In `assets/js/site.js`, change the `IMG` line to `"assets/img/"`.
+All 34 photos and logos are self-hosted in `assets/img/`. They were copied from the current site by the **Fetch site images** GitHub Action (`.github/workflows/fetch-images.yml`), which reruns whenever `scripts/images.txt` changes. `scripts/get-images.ps1` does the same job locally on Windows.
 
 ## Still to do before going live
 

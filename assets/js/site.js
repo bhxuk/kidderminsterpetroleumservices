@@ -1,7 +1,7 @@
 /* KPS redesign mockup: shared header, footer and behaviour */
 (function () {
-  // Images currently load from the live site. Run scripts/get-images.ps1 and set this to "assets/img/" to self-host.
-  var IMG = window.KPS_IMG || "https://www.kidderminsterpetroleumservices.com/wp-content/uploads/";
+  // Images are self-hosted in assets/img (copied from the old site by the "Fetch site images" workflow).
+  var IMG = window.KPS_IMG || "assets/img/";
   window.KPS_IMG = IMG;
 
   var page = document.body.getAttribute("data-page") || "home";
